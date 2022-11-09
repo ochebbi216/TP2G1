@@ -1,12 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Inscription</title>
+    <link rel="stylesheet" href="../css/style.css" />
+
 </head>
+
 <body>
-    
+    <header>
+        <center>
+            <img src="../images/logo IIT.png" width="150px" height="100px" alt="logo iit" />
+
+            <h1>
+                Université Nord Américaine Privée: Institut International de
+                Technologie
+            </h1>
+            <img src="../images/campus.jfif" alt="campus iit" width="100%" height="330px" />
+        </center>
+    </header>
+    <nav>
+        <div style="margin-left: 29% ;">
+            <a href="/index.html"><button class="button button1 ">Actuatité</button></a>
+            <a href="inscription.html"><button class="button button1 active">Inscription</button></a>
+            <a href="galerie.html"><button class="button button1  ">Galerie</button></a>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <br>
+            <!-- &#128150;  heart emoji-->
+            <fieldset style="width:40%; margin-left: 30%;">
+                <legend> &nbsp; &nbsp;&nbsp;&nbsp; Inscription étudiant : &nbsp;&nbsp; &nbsp;&nbsp; </legend>
+                    <form action="/action_page.php" method="post">
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="name">Nom :</label>
+                                </td>
+                                <td>
+                                    <input type="text" id="name" placeholder="votre nom" size="15" maxlength="20">
+                                </td>
+                            </tr>
+                            <tr><td> </td></tr>
+                            <tr>
+                                <td>
+                                    <label for="prenom">Prénom :</label>
+                                </td>
+                                <td>
+                                    <input type="text" id="prenom" placeholder="votre prénom" size="15" maxlength="20">
+                                </td>
+                            </tr>
+                            <tr><td> </td></tr>
+
+                            <tr>
+                                <td>
+                                    <label for="datenais">date de naissance :</label>
+                                </td>
+                                <td>
+                                    <input type="date" id="datenais">
+                                </td>
+                            </tr>
+                            <tr><td> </td></tr>
+
+                            <tr>
+                                <td>
+                                    <embed> sexe :</embed>
+                                </td>
+                                <td>
+                                    <input type="radio" id="mas" name="sexe" value="Masculin">
+                                    <label for="mas">Masculin</label>
+                                    <input type="radio" id="fer" name="sexe" value="Ferminin">
+                                    <label for="fer">Ferminin</label>
+                                </td>
+
+                            </tr>
+                            <tr><td> </td></tr>
+
+                            <tr>
+                                <td>
+                                    <label for="pays">Pays :</label>
+                                </td>
+                                <td>
+                                    <select id="pays" name="pays">
+                                        <option value="Tunisie" selected disabled>aucune</option>
+
+                                        <option value="Tunisie" >Tunisie</option>
+                                        <option value="Algérie">Algérie</option>
+                                        <option value="Mauritania">Mauritania</option>
+                                        <option value="Kenya">Kenya</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr><td> </td></tr>
+
+                            <tr>
+                                <td rowspan="3">
+                                    <label> Langues :</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" id="ar" value="Arabe">
+                                    <label for="ar">Arabe</label>
+                                </td>
+                                </tr>
+
+                                <tr>
+                                <td>
+                                    <input type="checkbox" id="fr" value="Francais">
+                                    <label for="fr">Francais</label>
+                                </td>
+                                </tr>
+
+                                <tr>
+                                <td>
+                                    <input type="checkbox" id="en" value="Anglais">
+                                    <label for="en">Anglais</label>
+                                </td>
+                            </tr>
+                            <tr><td> </td></tr>
+
+                            <tr>
+                                <td>
+                                    <label for="myFile">Image :</label>
+                                </td>
+                                <td>
+                                    <input type="file" id="myFile" name="filename" accept="image/*">
+                                </td>
+                            </tr>
+                            <tr><td> </td></tr>
+                            <tr><td> </td></tr>
+                            <tr><td> </td></tr>
+
+                            <tr>
+                                <td >
+                                    <input type="submit" name="send" value="validé">
+                                </td>
+                            </tr>
+
+                            <!-- <input type="reset" name="reset" value="effacer"> -->
+                        </table>
+                    </form>
+                
+            </fieldset>
+            <br>
+        </section>
+    </main>
+
+    <footer>
+        <embed> &nbsp; Route Mharza Km 1.5, Sfax</embed> <br>
+        <embed> &nbsp; Tél : +216 74 465 020</embed> <br>
+        <embed>&nbsp; Mail : contact.iit@iit.tn</embed> <br>
+    </footer>
+
 </body>
+
 </html>

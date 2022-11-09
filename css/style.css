@@ -6,7 +6,10 @@ section{
     background-color: burlywood;
 
 }
-
+.sectionpage{
+  width:60%; 
+  margin-left: 20%;
+}
 article{
     width:40%; 
     margin-left: 30%;
@@ -14,6 +17,70 @@ article{
 #img{
     float: right;
 }
+iframe{
+  margin-left: 73%;
+  top: 200px;
+
+}
 #hr{
     width: 40% ;
 }
+.button {
+    background-color: rgb(199, 155, 43); 
+    border: none;
+    color: rgb(199, 155, 43);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    
+  }
+  #img-galerie{
+    margin: 2px 7px 0px 10px;
+    padding: 5px 5px;
+
+  }
+  .button1 {
+    background-color: rgb(199, 155, 43); 
+    color: black; 
+    border: 2px solid #e1d070;
+  }
+  
+  .active, .button1:hover {
+    background-color: burlywood;
+    color: black;
+  }
+  #elem1{
+    display: flex;
+    justify-content: space-between;
+  }
+  #elem2{
+    display:inline-block;
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #td {
+    border-collapse: collapse;
+    border: 2px solid white;
+
+  }
+  #th{
+    background-color:rgba(199, 155, 43, 0.7);
+    text-align: center;
+    border: 0.1px solid rgba(199, 155, 43, 0.7);
+  }
+  .table {
+    border-collapse: collapse;
+      border-spacing:0;
+    
+  }
+
+
