@@ -1,3 +1,6 @@
+  body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
 header,nav,footer{
     background-color:rgb(199, 155, 43);
 }
