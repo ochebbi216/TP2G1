@@ -1,10 +1,10 @@
-  body{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  }
-header,nav,footer{
+header,nav{
     background-color:rgb(199, 155, 43);
 }
-
+footer{
+  background-color:rgb(199, 155, 43);
+  padding:5px 0 5px 0 ;
+}
 section{
     background-color: burlywood;
 
@@ -100,4 +100,16 @@ iframe{
   .particle:hover {
     box-shadow: inset 100px 0 0 0 burlywood;
     color: rgb(255, 255, 255);
+  }
+  body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  .gal-img{
+    border: 7px whitesmoke solid;
+    margin: 5px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.733);
+    -moz-box-shadow: 10px 10px 5px rgb(55, 53, 53);
+    -webkit-box-shadow: 10px 10px 5px rgb(55, 53, 53);
+    -khtml-box-shadow: 10px 10px 5px rgb(55, 53, 53);    
+    border-radius:1px ;    
   }
